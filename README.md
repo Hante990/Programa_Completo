@@ -26,6 +26,31 @@ Realizado por:
                                 <li> <a href="#Jacobi"> Método de Jacobi </a> </li> 
                             </ul>
                     </ul>
+                   <li> <a href = "#Métodos"> Métodos </a> <br> </li>
+          <ul class = "subindice">
+              <li> <a href="# Método del Trapecio "> Método del Trapecio </a> <br> </li>
+              <li> <a href="# Método de Simpson 1/3 "> Método de Simpson 1/3 </a> <br> </li>
+              <li> <a href="# Método de Simpson 3/8"> Método de Simpson 3/8 </a> <br> </li> 
+              <li> <a href="# Método de la Cuadratura Gaussiana "> Método de la Cuadratura Gaussiana </a> <br> </li> 
+          </ul>
+      </ul>
+                </nav>
+      <li> <a href="#Descripcion"> Descripción </a> <br> </li>
+                            <ul class="subindice"> 
+                                <li> <a href="#Lineal"> Interpolación lineal (5 ejemplos). </a> </li>
+                                <li> <a href="#Cuadratica"> Interpolación cuadratica (1 ejemplo). </a> </li>
+                                <li> <a href="#Langrage"> Interpolación langrage (5 ejemplos). </a> </li> 
+                                <li> <a href="#Newton"> Interpolación de newton (5 ejemplos). </a> </li> 
+                            </ul>
+                    </ul>
+                </nav>
+   <li> <a href="#Descripcion"> Descripción </a> <br> </li>
+                            <ul class="subindice"> 
+                                <li> <a href="#Lineal"> Euler (4 ejemplos). </a> </li>
+                                <li> <a href="#Cuadratica"> Runge-Kutta (4 ejemplos). </a> </li>
+                                <li> <a href="#Langrage"> Taylor (4 ejemplos). </a> </li> 
+                            </ul>
+                    </ul>
                 </nav>
             </font> </header>
 
@@ -1476,26 +1501,6 @@ public class JacobiMethod {
 
 -----------------------------------------------------------------------------------------
 
-<h3 align = "center"> <font color = "darkorange" size = "+6"  font face =  "cooper black">  Índice </font> </h3>
-
-<header> <font color = "red" size="+1" font face = "aharoni">
-    <nav class = "navegacion">
-      <ul class = "Indice">
-        <li> <a href = "#Descripción"> Descripción </a> <br> </li>
-        <li> <a href = "#Temario"> Temario </a> <br> </li>
-        <li> <a href = "#Métodos"> Métodos </a> <br> </li>
-          <ul class = "subindice">
-              <li> <a href="# Método del Trapecio "> Método del Trapecio </a> <br> </li>
-              <li> <a href="# Método de Simpson 1/3 "> Método de Simpson 1/3 </a> <br> </li>
-              <li> <a href="# Método de Simpson 3/8"> Método de Simpson 3/8 </a> <br> </li> 
-              <li> <a href="# Método de la Cuadratura Gaussiana "> Método de la Cuadratura Gaussiana </a> <br> </li> 
-          </ul>
-      </ul>
-    </nav>
-</font> </header>
-
------------------------------------------------------------------------------------------
-
 <h3 align = "center"> <font  font face = "bauhaus 93">  <a name="Descripción"> Descripción</a> </font> </h3>
 
 En este documento podremos obser el funcionamiento de diversos métodos aplicandolos en funciones de diferenciación e integración númerica, los cuales son:
@@ -1894,20 +1899,6 @@ El Método de la Cuadratura Gaussiana es una técnica de integración numérica 
 
 ![Captura de pantalla 2024-04-21 145400](https://github.com/MiguelAngelFlores3/M-TODOS_T4/assets/167603831/33d51347-cb05-4cdf-9611-78a99cd6448d)
 
- 
-<h2 align = "center"> <font color = "darkorange" size = "+6"  font face = "bauhaus 93">  Indice </font> </h2>
-<header> <font color = "red" size="+1" font face = "aharoni">
-                <nav class="navegacion">                   
-     <li> <a href="#Descripcion"> Descripción </a> <br> </li>
-                            <ul class="subindice"> 
-                                <li> <a href="#Lineal"> Interpolación lineal (5 ejemplos). </a> </li>
-                                <li> <a href="#Cuadratica"> Interpolación cuadratica (1 ejemplo). </a> </li>
-                                <li> <a href="#Langrage"> Interpolación langrage (5 ejemplos). </a> </li> 
-                                <li> <a href="#Newton"> Interpolación de newton (5 ejemplos). </a> </li> 
-                            </ul>
-                    </ul>
-                </nav>
-            </font> </header>
 
 <h2 align = "center"> <font font face = "forte">  <a name="Descricpcion"> Descripción </a></h2>
 La interpolación es un método matemático utilizado para estimar valores desconocidos dentro de un rango de valores conocidos. Se basa en la suposición de que la función que describe los datos es continua y suave. La interpolación se utiliza en diversas áreas, como la ingeniería, la ciencia de datos, la física y la estadística, para predecir valores intermedios entre puntos de datos discretos.
@@ -2080,19 +2071,6 @@ La interpolación de Newton es una técnica ampliamente utilizada en el campo de
     }
 
   ![Screenshot 2024-05-14 204415](https://github.com/Hante990/Interpolaci-n2/assets/107586879/a5a337a4-8aac-4526-8771-3b708eac912c)
- 
-<h2 align = "center"> <font color = "darkorange" size = "+6"  font face = "bauhaus 93">  Indice </font> </h2>
-<header> <font color = "red" size="+1" font face = "aharoni">
-                <nav class="navegacion">                   
-     <li> <a href="#Descripcion"> Descripción </a> <br> </li>
-                            <ul class="subindice"> 
-                                <li> <a href="#Lineal"> Euler (4 ejemplos). </a> </li>
-                                <li> <a href="#Cuadratica"> Runge-Kutta (4 ejemplos). </a> </li>
-                                <li> <a href="#Langrage"> Taylor (4 ejemplos). </a> </li> 
-                            </ul>
-                    </ul>
-                </nav>
-            </font> </header>
 
 <h2 align = "center"> <font font face = "forte">  <a name="Descricpcion"> Descripción </a></h2>
 Los métodos de Euler, Taylor y Runge-Kutta son herramientas numéricas para resolver ecuaciones diferenciales. El método de Euler es simple pero puede ser inestable, el método de Taylor es preciso pero no se utiliza comúnmente, y el método de Runge-Kutta es preciso y estable, siendo especialmente popular el método de Runge-Kutta de orden 4.
