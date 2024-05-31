@@ -9,8 +9,6 @@ Realizado por:
                         <li> <a href="#SOBRE LA MATERIA"> Sobre la materia </a> <br> </li>
                             <ul class="subindice"> 
                                 <li> <a href="#Competencia de la Asignatura"> Competencia de la Asignatura </a> </li>
-                                <li> <a href="#Competencia del TEMA"> Competencia del TEMA </a> </li>
-                                <li> <a href="#TEMARIO"> Temario </a> </li>  
                             </ul>
      <li> <a href="#Métodos numéricos para encontrar las raíces de ecuaciones que se encuentran en nuestro repositorio"> Métodos numéricos para encontrar las raíces </a> <br> </li>
                             <ul class="subindice"> 
@@ -18,6 +16,14 @@ Realizado por:
                                 <li> <a href="#Método de la Falsa Posición"> Método de la Falsa Posición. </a> </li>
                                 <li> <a href="#Método de la Secante"> Método de la Secante. </a> </li> 
                                 <li> <a href="#Método de Newton-Raphson"> Método de Newton-Raphson. </a> </li> 
+                            </ul>
+                    </ul>
+                     <li> <a href="#Métodos numéricos para encontrar las raíces de ecuaciones que se encuentran en nuestro repositorio"> Sistemas de ecuaciones </a> <br> </li>
+                            <ul class="subindice"> 
+                                <li> <a href="#Eliminacion"> Eliminación-Gaussiana </a> </li>
+                                <li> <a href="#Gauss"> Gauss-Jordan </a> </li>
+                                <li> <a href="#Seidel"> Gauss-Seidel </a> </li> 
+                                <li> <a href="#Jacobi"> Método de Jacobi </a> </li> 
                             </ul>
                     </ul>
                 </nav>
@@ -33,20 +39,7 @@ En este documento vamos a ver varios ejercicios sobre los distintos metodos como
 # Sobre la materia 
 <h2 align = "center"> <font  size = "+6" > Competencia de la asignatura</font> </h2>
 Aplica los métodos numéricos para resolver problemas científicos y de ingeniería utilizando la computadora.
-<h2 align = "center"> <font size = "+6"  > Competencia del tema</font> </h2>
-Aplica los métodos numéricos con el objeto de solucionar ecuaciones mediante los métodos de intervalo e interpolación apoyada de un lenguaje de programación.  
 
-
-<h3> <font font face = "forte"> <a name="TEMARIO"> TEMARIO  </a> </h3>
-   
-   2.1 Método de bisección.
-   
-  2.2 Método de falsa posicion.  
-  
-  2.3 Método de la secante.   
-
-  2.4 Método de newton.
-   
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 <h1 align = "center"> <font  font face = "bauhaus 93">  Métodos para enontrar las raíces de una ecuacion </font> </h1>
 
@@ -65,10 +58,9 @@ El método de bisección es un algoritmo utilizado para encontrar las raíces de
    
 <h5> <font font face = "arial"> <b> <i> Ejemplo en código. </i> </b> </h5>
 
-  import java.util.Scanner;
+    import java.util.Scanner;
+    public class Main {  
 
-public class Main {  
-    
     public static void main(String[] args) {
       
         Scanner input = new Scanner(System.in);
@@ -138,8 +130,8 @@ El método de la falsa posición, también conocido como método de la regla fal
    
 <h5> <font font face = "arial"> <b> <i> Ejemplo en código. </i> </b> </h5>
 
-import java.util.Scanner;
-public class Main {
+    import java.util.Scanner;
+    public class Main {
    
     public static void main(String[] args) {
         
@@ -209,9 +201,8 @@ El método de la secante es un algoritmo numérico utilizado para encontrar las 
    
 <h5> <font font face = "arial"> <b> <i> Ejemplo en código. </i> </b> </h5>
 
- import java.util.Scanner;
-
-public class Main {
+    import java.util.Scanner;
+    public class Main {
  
     public static void main(String[] args) {
       
@@ -270,8 +261,7 @@ El método de Newton, también conocido como método de Newton-Raphson, es un al
    
 <h5> <font font face = "arial"> <b> <i> Ejemplo en código. </i> </b> </h5>
 
-public class MetodoNewton {
-
+    public class MetodoNewton {
     public static double epsilon = 0.0001; 
 
     //  f(x) = cos(x) - x
@@ -303,42 +293,6 @@ public class MetodoNewton {
         System.out.println("La solución aproximada es: " + solucion);
     }}
 
-
-
-# Tema-3
-<h2 align = "center"> <font color = "darkorange" size = "+6"  font face = "bauhaus 93">  Indice </font> </h2>
-<header> <font color = "red" size="+1" font face = "aharoni">
-                <nav class="navegacion">
-                    <ul class="Indice">
-                       <li> <a href="#Descripción"> Descripción del Problemario </a> <br> </li>
-                        <li> <a href="#Sobre la materia"> Sobre la materia </a> <br> </li>
-                            <ul class="subindice"> 
-                                <li> <a href="#Competencia de la Asignatura"> Competencia de la Asignatura </a> </li>
-                                <li> <a href="#Competencia del tema"> Competencia del TEMA </a> </li>
-                            </ul>
-     <li> <a href="#Métodos numéricos para encontrar las raíces de ecuaciones que se encuentran en nuestro repositorio"> Sistemas de ecuaciones </a> <br> </li>
-                            <ul class="subindice"> 
-                                <li> <a href="#Eliminacion"> Eliminación-Gaussiana </a> </li>
-                                <li> <a href="#Gauss"> Gauss-Jordan </a> </li>
-                                <li> <a href="#Seidel"> Gauss-Seidel </a> </li> 
-                                <li> <a href="#Jacobi"> Método de Jacobi </a> </li> 
-                            </ul>
-                    </ul>
-                </nav>
-            </font> </header>
-
-# Descripción
-En este documento vamos a ver varios ejercicios sobre los distintos metodos como lo son:
-  <li>1.- Eliminación-Gaussiana</li>
-  <li>2.- Gauss-Jordan</li>
-  <li>3.- Gauss-Seidel</li>
-  <li>4.- Jacobi</li>
-  
-# Sobre la materia 
-<h2 align = "center"> <font  size = "+6" > <a name="Competencia de la Asignatura">Competencia de la asignatura</font></a> </h2>
-Aplica los métodos numéricos para resolver problemas científicos y de ingeniería utilizando la computadora.
-<h2 align = "center"> <font size = "+6"  > <a name="Competencia del tema">Competencia del tema</font> </a></h2>
-Aplica los métodos numéricos con el objeto de solucionar ecuaciones mediante los métodos de intervalo e interpolación apoyada de un lenguaje de programación.  
 
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 <h1 align = "center"> <font  font face = "bauhaus 93"> <a name="Sistemas de ecuaciones"> Sistemas de ecuaciones </font></a> </h1>
