@@ -1892,9 +1892,13 @@ El Método de la Cuadratura Gaussiana es una técnica de integración numérica 
 <h4> <font font face = "arial"> Programa ejecutado </h4>
 
 ![Captura de pantalla 2024-04-21 145400](https://github.com/MiguelAngelFlores3/M-TODOS_T4/assets/167603831/33d51347-cb05-4cdf-9611-78a99cd6448d)
+-----------------------------------------------------------------------------------------
 
+ <h1> <font color = "darkred" size="+5" font face = "cooper black"> <b> <i> <a name="Inter">  TEMA 5 - Interpolación y ajuste de funciones</a><i> </b> </font> </h1>
 
-<h2 align = "center"> <font font face = "forte">  <a name="Inter"> Descripción </a></h2>
+-----------------------------------------------------------------------------------------
+
+<h2 align = "center"> <font font face = "forte">  Descripción </h2>
 La interpolación es un método matemático utilizado para estimar valores desconocidos dentro de un rango de valores conocidos. Se basa en la suposición de que la función que describe los datos es continua y suave. La interpolación se utiliza en diversas áreas, como la ingeniería, la ciencia de datos, la física y la estadística, para predecir valores intermedios entre puntos de datos discretos.
   
 Existen varios métodos de interpolación, cada uno con sus propias características y aplicaciones. Algunos de los más comunes son:
@@ -2065,8 +2069,12 @@ La interpolación de Newton es una técnica ampliamente utilizada en el campo de
     }
 
   ![Screenshot 2024-05-14 204415](https://github.com/Hante990/Interpolaci-n2/assets/107586879/a5a337a4-8aac-4526-8771-3b708eac912c)
+  
+  -----------------------------------------------------------------------------------------
+ <h1> <font color = "darkred" size="+5" font face = "cooper black"> <b> <i>  <a name="SO"> Tema 6 - Solución de ecuaciones diferenciales<i> </b> </font> </h1>
+   -----------------------------------------------------------------------------------------
 
-<h2 align = "center"> <font font face = "forte">  <a name="SO"> Descripción </a></h2>
+<h2 align = "center"> <font font face = "forte"> Descripción </a></h2>
 Los métodos de Euler, Taylor y Runge-Kutta son herramientas numéricas para resolver ecuaciones diferenciales. El método de Euler es simple pero puede ser inestable, el método de Taylor es preciso pero no se utiliza comúnmente, y el método de Runge-Kutta es preciso y estable, siendo especialmente popular el método de Runge-Kutta de orden 4.
   
 Existen varios métodos para resolver ecuaciones diferenciales, cada uno con sus propias características y aplicaciones. Algunos de los más comunes son:
