@@ -5,17 +5,17 @@ Realizado por:
 <header> <font color = "red" size="+1" font face = "aharoni">
                 <nav class="navegacion">
                     <ul class="Indice">
-                       <li> <a href="#Descripción del Problemario"> Descripción del Problemario </a> <br> </li>
+                       <li> <a href="#Descripcion"> Descripción del Problemario </a> <br> </li>
                         <li> <a href="#SOBRE LA MATERIA"> Sobre la materia </a> <br> </li>
                             <ul class="subindice"> 
                                 <li> <a href="#Competencia de la Asignatura"> Competencia de la Asignatura </a> </li>
                             </ul>
      <li> <a href="#Métodos numéricos para encontrar las raíces de ecuaciones que se encuentran en nuestro repositorio"> Métodos numéricos para encontrar las raíces </a> <br> </li>
                             <ul class="subindice"> 
-                                <li> <a href="#Método de Bisección"> Método de Bisección. </a> </li>
-                                <li> <a href="#Método de la Falsa Posición"> Método de la Falsa Posición. </a> </li>
-                                <li> <a href="#Método de la Secante"> Método de la Secante. </a> </li> 
-                                <li> <a href="#Método de Newton-Raphson"> Método de Newton-Raphson. </a> </li> 
+                                <li> <a href="#B"> Método de Bisección. </a> </li>
+                                <li> <a href="#F"> Método de la Falsa Posición. </a> </li>
+                                <li> <a href="#S"> Método de la Secante. </a> </li> 
+                                <li> <a href="#N"> Método de Newton-Raphson. </a> </li> 
                             </ul>
                     </ul>
                      <li> <a href="#Métodos numéricos para encontrar las raíces de ecuaciones que se encuentran en nuestro repositorio"> Sistemas de ecuaciones </a> <br> </li>
@@ -54,7 +54,7 @@ Realizado por:
                 </nav>
             </font> </header>
 
-# Descripción
+<a name="Lineal"> # Descripción
 En este documento vamos a ver varios ejercicios sobre los distintos metodos como lo son:
   <li>1.-Biseccion</li>
   <li>2.-Falsa posición</li>
@@ -68,7 +68,7 @@ Aplica los métodos numéricos para resolver problemas científicos y de ingenie
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 <h1 align = "center"> <font  font face = "bauhaus 93">  Métodos para enontrar las raíces de una ecuacion </font> </h1>
 
-<h2 align = "center"> <font font face = "forte">  1. Bisección </h2>
+<h2 align = "center"> <font font face = "forte">  <a name="B"> 1. Bisección </a></h2>
 
 <h3> <font font face = "arial"> DESCRIPCIÓN: </h3>
 
@@ -140,7 +140,7 @@ El método de bisección es un algoritmo utilizado para encontrar las raíces de
         return x*x - 4; 
     }}
     
-<h2 align = "center"> <font font face = "forte">  2.- Falsa posición </h2>
+<h2 align = "center"> <font font face = "forte">  <a name="F">2.- Falsa posición </a></h2>
 
 <h3> <font font face = "arial"> DESCRIPCIÓN: </h3>
 
@@ -212,7 +212,7 @@ El método de la falsa posición, también conocido como método de la regla fal
         return x*x - 4; // Ejemplo: x^2 - 4
     }}
     
-<h2 align = "center"> <font font face = "forte">  3.- De la secante </h2>
+<h2 align = "center"> <font font face = "forte"> <a name="S"> 3.- De la secante </a></h2>
 
 <h3> <font font face = "arial"> DESCRIPCIÓN: </h3>
 
@@ -272,7 +272,7 @@ El método de la secante es un algoritmo numérico utilizado para encontrar las 
         return x*x - 4; 
     }}
     
-<h2 align = "center"> <font font face = "forte">  4. Newton </h2>
+<h2 align = "center"> <font font face = "forte"> <a name="N"> 4. Newton </a></h2>
 
 <h3> <font font face = "arial"> DESCRIPCIÓN: </h3>
 
