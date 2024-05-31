@@ -34,7 +34,7 @@ Realizado por:
           </ul>
       </ul>
                 </nav>
-      <li> <a href="#Descripcion">  Interpolación  </a> <br> </li>
+      <li> <a href="#Inter">  Interpolación  </a> <br> </li>
                             <ul class="subindice"> 
                                 <li> <a href="#Lineal"> Interpolación lineal (5 ejemplos). </a> </li>
                                 <li> <a href="#Cuadratica"> Interpolación cuadratica (1 ejemplo). </a> </li>
@@ -43,11 +43,11 @@ Realizado por:
                             </ul>
                     </ul>
                 </nav>
-   <li> <a href="#Descripcion"> Solución de ecuaciones diferenciales </a> <br> </li>
+   <li> <a href="#SO"> Solución de ecuaciones diferenciales </a> <br> </li>
                             <ul class="subindice"> 
-                                <li> <a href="#Lineal"> Euler (4 ejemplos). </a> </li>
-                                <li> <a href="#Cuadratica"> Runge-Kutta (4 ejemplos). </a> </li>
-                                <li> <a href="#Langrage"> Taylor (4 ejemplos). </a> </li> 
+                                <li> <a href="#EU"> Euler (4 ejemplos). </a> </li>
+                                <li> <a href="#RU"> Runge-Kutta (4 ejemplos). </a> </li>
+                                <li> <a href="#LA"> Taylor (4 ejemplos). </a> </li> 
                             </ul>
                     </ul>
                 </nav>
@@ -1894,7 +1894,7 @@ El Método de la Cuadratura Gaussiana es una técnica de integración numérica 
 ![Captura de pantalla 2024-04-21 145400](https://github.com/MiguelAngelFlores3/M-TODOS_T4/assets/167603831/33d51347-cb05-4cdf-9611-78a99cd6448d)
 
 
-<h2 align = "center"> <font font face = "forte">  <a name="Descricpcion"> Descripción </a></h2>
+<h2 align = "center"> <font font face = "forte">  <a name="Inter"> Descripción </a></h2>
 La interpolación es un método matemático utilizado para estimar valores desconocidos dentro de un rango de valores conocidos. Se basa en la suposición de que la función que describe los datos es continua y suave. La interpolación se utiliza en diversas áreas, como la ingeniería, la ciencia de datos, la física y la estadística, para predecir valores intermedios entre puntos de datos discretos.
   
 Existen varios métodos de interpolación, cada uno con sus propias características y aplicaciones. Algunos de los más comunes son:
@@ -2066,7 +2066,7 @@ La interpolación de Newton es una técnica ampliamente utilizada en el campo de
 
   ![Screenshot 2024-05-14 204415](https://github.com/Hante990/Interpolaci-n2/assets/107586879/a5a337a4-8aac-4526-8771-3b708eac912c)
 
-<h2 align = "center"> <font font face = "forte">  <a name="Descricpcion"> Descripción </a></h2>
+<h2 align = "center"> <font font face = "forte">  <a name="SO"> Descripción </a></h2>
 Los métodos de Euler, Taylor y Runge-Kutta son herramientas numéricas para resolver ecuaciones diferenciales. El método de Euler es simple pero puede ser inestable, el método de Taylor es preciso pero no se utiliza comúnmente, y el método de Runge-Kutta es preciso y estable, siendo especialmente popular el método de Runge-Kutta de orden 4.
   
 Existen varios métodos para resolver ecuaciones diferenciales, cada uno con sus propias características y aplicaciones. Algunos de los más comunes son:
@@ -2076,7 +2076,7 @@ Existen varios métodos para resolver ecuaciones diferenciales, cada uno con sus
 
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-<h2 align = "center"> <font font face = "forte">  <a name="Lineal"> 1. Euler </a></h2>
+<h2 align = "center"> <font font face = "forte">  <a name="EU"> 1. Euler </a></h2>
 
 <h3> <font font face = "arial"> DESCRIPCIÓN: </h3>
 
@@ -2120,7 +2120,7 @@ El método de Euler es un método iterativo simple y rápido para resolver EDOs.
        }
 ![Screenshot 2024-05-28 232923](https://github.com/Hante990/Tema_6/assets/107586879/d2b28a67-3dcc-45b8-8880-0f6e404a1b89)
 
-<h2 align = "center"> <font font face = "forte">  <a name="Cuadratica"> 2.- Runge-Kutta </a></h2>
+<h2 align = "center"> <font font face = "forte">  <a name="RU"> 2.- Runge-Kutta </a></h2>
 
 <h3> <font font face = "arial"> DESCRIPCIÓN: </h3>
 
@@ -2170,7 +2170,7 @@ El método de Runge-Kutta es un conjunto de métodos numéricos iterativos que s
  
 ![Screenshot 2024-05-28 233417](https://github.com/Hante990/Tema_6/assets/107586879/c9594910-de12-47a5-8109-85a09064a8d7)
 
-<h2 align = "center"> <font font face = "forte"> <a name="Langrage">  3.- Taylor </a></h2>
+<h2 align = "center"> <font font face = "forte"> <a name="LA">  3.- Taylor </a></h2>
 
 <h3> <font font face = "arial"> DESCRIPCIÓN: </h3>
 
