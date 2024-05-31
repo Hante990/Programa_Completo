@@ -17,7 +17,7 @@ Realizado por:
                                 <li> <a href="#N"> Método de Newton-Raphson. </a> </li> 
                             </ul>
                     </ul>
-                     <li> <a href="#Métodos numéricos para encontrar las raíces de ecuaciones que se encuentran en nuestro repositorio"> Sistemas de ecuaciones </a> <br> </li>
+                     <li> <a href="#Sistemas de ecuaciones"> Sistemas de ecuaciones </a> <br> </li>
                             <ul class="subindice"> 
                                 <li> <a href="#Eliminacion"> Eliminación-Gaussiana </a> </li>
                                 <li> <a href="#Gauss"> Gauss-Jordan </a> </li>
@@ -25,12 +25,12 @@ Realizado por:
                                 <li> <a href="#Jacobi"> Método de Jacobi </a> </li> 
                             </ul>
                     </ul>
-                   <li> <a href = "#Métodos"> Diferenciación e integración numérica </a> <br> </li>
+                   <li> <a href = "#4"> Diferenciación e integración numérica </a> <br> </li>
           <ul class = "subindice">
-              <li> <a href="# Método del Trapecio "> Método del Trapecio </a> <br> </li>
-              <li> <a href="# Método de Simpson 1/3 "> Método de Simpson 1/3 </a> <br> </li>
-              <li> <a href="# Método de Simpson 3/8"> Método de Simpson 3/8 </a> <br> </li> 
-              <li> <a href="# Método de la Cuadratura Gaussiana "> Método de la Cuadratura Gaussiana </a> <br> </li> 
+              <li> <a href="#Trapecio"> Método del Trapecio </a> <br> </li>
+              <li> <a href="#1/3"> Método de Simpson 1/3 </a> <br> </li>
+              <li> <a href="#3/8"> Método de Simpson 3/8 </a> <br> </li> 
+              <li> <a href="# Cuadratura"> Método de la Cuadratura Gaussiana </a> <br> </li> 
           </ul>
       </ul>
                 </nav>
@@ -1424,10 +1424,10 @@ public class JacobiMethod {
 
     
 <h5> <font font face = "arial"> <b> <i> Ejemplo 5: </i> </b> </h5>
-public class JacobiMethod {
-    public static final double EPSILON = 0.0001;
-    public static final int MAX_ITERATIONS = 100;
-
+  
+      public class JacobiMethod {
+      public static final double EPSILON = 0.0001;
+      public static final int MAX_ITERATIONS = 100;
     public static void main(String[] args) {
         double[][] coefficients = {{2, -1, 0}, {-1, 2, -1}, {0, -1, 2}}; 
         double[] constants = {1, 0, 1}; 
@@ -1491,11 +1491,11 @@ public class JacobiMethod {
 
 ![ee5](https://github.com/Hante990/Tema-3/assets/107586879/19658622-1d53-44ed-9891-412fe75136ba)
 
- <h1> <font color = "darkred" size="+5" font face = "cooper black"> <b> <i> Tema 4: Métodos de solución de problemas aplicando diferenciación y integración<i> </b> </font> </h1>
+ <h1> <font color = "darkred" size="+5" font face = "cooper black"> <b> <i><a name="4">  Tema 4: Métodos de solución de problemas aplicando diferenciación y integración</a><i> </b> </font> </h1>
 
 -----------------------------------------------------------------------------------------
 
-<h3 align = "center"> <font  font face = "bauhaus 93">  <a name="Descripción"> Descripción</a> </font> </h3>
+<h3 align = "center"> <font  font face = "bauhaus 93">   Descripción </font> </h3>
 
 En este documento podremos obser el funcionamiento de diversos métodos aplicandolos en funciones de diferenciación e integración númerica, los cuales son:
 
@@ -1522,7 +1522,7 @@ En cada una de las carpetas podremos encontrar lo que son los códigos de cada m
 
 <h2 align = "center"> <font  font face = "bauhaus 93"> <a name="Métodos"> Métodos</a> </font> </h2>
 
-<h3 align = "center"> <font  font face = "bauhaus 93"> <a name=" Método del Trapecio ">  Método del Trapecio </a> </font> </h3>
+<h3 align = "center"> <font  font face = "bauhaus 93"> <a name="Trapecio">  Método del Trapecio </a> </font> </h3>
 
 <h4> <font font face = "arial"> Descripción </h4>
   
@@ -1611,7 +1611,7 @@ Este método es útil cuando la función a integrar es difícil o imposible de i
 
 ![Captura de pantalla 2024-04-21 134559](https://github.com/MiguelAngelFlores3/Metodos_T4/assets/167603831/dbc10aaf-0a47-49c8-9ebd-f0313ac94924)
 
-<h3 align = "center"> <font  font face = "bauhaus 93"> <a name=" Método de Simpson 1/3 ">  Método de Simpson 1/3 </a> </font> </h3>
+<h3 align = "center"> <font  font face = "bauhaus 93"> <a name="1/3">  Método de Simpson 1/3 </a> </font> </h3>
 
 <h4> <font font face = "arial"> Descripción </h4>
 
@@ -1707,7 +1707,7 @@ Este método proporciona una mayor precisión que el Método del Trapecio para l
 
 ![Captura de pantalla 2024-04-21 142010](https://github.com/MiguelAngelFlores3/M-TODOS_T4/assets/167603831/4790a5b1-9e8c-4d36-ac32-fc21be24a584)
 
-<h3 align = "center"> <font  font face = "bauhaus 93"> <a name=" Método de Simpson 3/8 ">  Método de Simpson 3/8 </a> </font> </h3>
+<h3 align = "center"> <font  font face = "bauhaus 93"> <a name="3/8">  Método de Simpson 3/8 </a> </font> </h3>
 
 <h4> <font font face = "arial"> Descripción </h4>
 
@@ -1801,7 +1801,7 @@ El Método de Simpson 3/8 es una técnica de integración numérica que extiende
 
 ![Captura de pantalla 2024-04-21 144711](https://github.com/MiguelAngelFlores3/M-TODOS_T4/assets/167603831/2f81f60f-9961-47cc-b7d6-9cc7e679a7eb)
 
-<h3 align = "center"> <font  font face = "bauhaus 93"> <a name=" Método de la Cuadratura Gaussiana ">  Método de la Cuadratura Gaussiana </a> </font> </h3>
+<h3 align = "center"> <font  font face = "bauhaus 93"> <a name="Cuadratura">  Método de la Cuadratura Gaussiana </a> </font> </h3>
 
 <h4> <font font face = "arial"> Descripción </h4>
   
