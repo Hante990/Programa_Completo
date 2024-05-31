@@ -25,7 +25,7 @@ Realizado por:
                                 <li> <a href="#Jacobi"> Método de Jacobi </a> </li> 
                             </ul>
                     </ul>
-                   <li> <a href = "#Métodos"> Métodos </a> <br> </li>
+                   <li> <a href = "#Métodos"> Diferenciación e integración numérica </a> <br> </li>
           <ul class = "subindice">
               <li> <a href="# Método del Trapecio "> Método del Trapecio </a> <br> </li>
               <li> <a href="# Método de Simpson 1/3 "> Método de Simpson 1/3 </a> <br> </li>
@@ -34,7 +34,7 @@ Realizado por:
           </ul>
       </ul>
                 </nav>
-      <li> <a href="#Descripcion"> Descripción </a> <br> </li>
+      <li> <a href="#Descripcion">  Interpolación  </a> <br> </li>
                             <ul class="subindice"> 
                                 <li> <a href="#Lineal"> Interpolación lineal (5 ejemplos). </a> </li>
                                 <li> <a href="#Cuadratica"> Interpolación cuadratica (1 ejemplo). </a> </li>
@@ -43,7 +43,7 @@ Realizado por:
                             </ul>
                     </ul>
                 </nav>
-   <li> <a href="#Descripcion"> Descripción </a> <br> </li>
+   <li> <a href="#Descripcion"> Solución de ecuaciones diferenciales </a> <br> </li>
                             <ul class="subindice"> 
                                 <li> <a href="#Lineal"> Euler (4 ejemplos). </a> </li>
                                 <li> <a href="#Cuadratica"> Runge-Kutta (4 ejemplos). </a> </li>
