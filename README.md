@@ -5,10 +5,9 @@ Realizado por:
 <header> <font color = "red" size="+1" font face = "aharoni">
                 <nav class="navegacion">
                     <ul class="Indice">
-                       <li> <a href="#Descripcion"> Descripción del Problemario </a> <br> </li>
-                        <li> <a href="#SOBRE LA MATERIA"> Sobre la materia </a> <br> </li>
+                       <li> <a href="#DES"> Descripción del Problemario </a> <br> </li>
                             <ul class="subindice"> 
-                                <li> <a href="#Competencia de la Asignatura"> Competencia de la Asignatura </a> </li>
+                                <li> <a href="#COM"> Competencia de la Asignatura </a> </li>
                             </ul>
      <li> <a href="#Métodos numéricos para encontrar las raíces de ecuaciones que se encuentran en nuestro repositorio"> Métodos numéricos para encontrar las raíces </a> <br> </li>
                             <ul class="subindice"> 
@@ -54,15 +53,10 @@ Realizado por:
                 </nav>
             </font> </header>
 
-<a name="Lineal"> # Descripción
-En este documento vamos a ver varios ejercicios sobre los distintos metodos como lo son:
-  <li>1.-Biseccion</li>
-  <li>2.-Falsa posición</li>
-  <li>3.-De la secante</li>
-  <li>4.-Newton</li>
-  
-# Sobre la materia 
-<h2 align = "center"> <font  size = "+6" > Competencia de la asignatura</font> </h2>
+<h2 align = "center"> <font  size = "+6" > <a name="DES">Descripción del problemario</a></font> </h2>
+En este documento, se realizará un exhaustivo análisis de los conocimientos adquiridos a lo largo del semestre en el curso de Métodos Numéricos. Se abordarán desde los fundamentos de los métodos para hallar raíces de ecuaciones hasta las técnicas avanzadas para la resolución de ecuaciones diferenciales. Se explorarán detalladamente las herramientas matemáticas y computacionales empleadas, destacando la importancia de cada método en la resolución de problemas numéricos. Además, se pondrá énfasis en la aplicación práctica de estos métodos, demostrando su relevancia en la solución de situaciones reales y su impacto en diversas áreas de la ciencia y la ingeniería.
+
+<h2 align = "center"> <font  size = "+6" > <a name="COM">Competencia de la asignatura</a></font> </h2>
 Aplica los métodos numéricos para resolver problemas científicos y de ingeniería utilizando la computadora.
 
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
